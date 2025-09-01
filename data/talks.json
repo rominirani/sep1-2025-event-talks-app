@@ -1,0 +1,47 @@
+
+{
+  "talks": [
+    {
+      "title": "The Future of Artificial Intelligence",
+      "speakers": ["Dr. Evelyn Reed"],
+      "category": ["AI", "Machine Learning"],
+      "duration": 60,
+      "description": "A deep dive into the future of AI and its potential impact on society."
+    },
+    {
+      "title": "Quantum Computing: A New Paradigm",
+      "speakers": ["Prof. Kenji Tanaka"],
+      "category": ["Quantum Computing", "Physics"],
+      "duration": 60,
+      "description": "Exploring the principles of quantum computing and its applications."
+    },
+    {
+      "title": "Building Scalable Web Applications",
+      "speakers": ["Maria Rodriguez", "David Chen"],
+      "category": ["Web Development", "Scalability"],
+      "duration": 60,
+      "description": "Best practices for designing and building web applications that can handle millions of users."
+    },
+    {
+      "title": "The Ethics of Genetic Engineering",
+      "speakers": ["Dr. Lena Petrova"],
+      "category": ["Bioethics", "Genetics"],
+      "duration": 60,
+      "description": "A discussion on the ethical implications of genetic engineering and its future."
+    },
+    {
+      "title": "Cybersecurity in a Connected World",
+      "speakers": ["John 'Hack' Smith"],
+      "category": ["Cybersecurity", "Networking"],
+      "duration": 60,
+      "description": "An overview of the latest cybersecurity threats and how to protect yourself."
+    },
+    {
+      "title": "The Art of Data Visualization",
+      "speakers": ["Isabella Rossi"],
+      "category": ["Data Science", "Design"],
+      "duration": 60,
+      "description": "Learn how to create compelling data visualizations that tell a story."
+    }
+  ]
+}

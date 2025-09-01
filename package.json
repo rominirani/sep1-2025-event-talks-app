@@ -1,0 +1,10 @@
+{
+  "name": "techsparks-2025",
+  "version": "1.0.0",
+  "description": "Website for the TechSparks 2025 event.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
