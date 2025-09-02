@@ -2,12 +2,14 @@
 document.addEventListener('DOMContentLoaded', () => {
   const scheduleContainer = document.getElementById('schedule-container');
   const searchBar = document.getElementById('search-bar');
+  const loadingIndicator = document.getElementById('loading-indicator');
   let talks = [];
 
   fetch('/api/talks')
     .then(response => response.json())
     .then(data => {
       talks = data.talks;
+      loadingIndicator.style.display = 'none';
       displayTalks(talks);
     });
 

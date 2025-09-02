@@ -73,3 +73,9 @@ h1 {
   background-color: #222;
   border-radius: 5px;
 }
+
+#loading-indicator {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2em;
+}
