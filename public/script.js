@@ -50,7 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   searchBar.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
-    const filteredTalks = talks.filter(talk => 
+    const filteredTalks = talks.filter(talk =>
+      talk.title.toLowerCase().includes(searchTerm) ||
+      talk.description.toLowerCase().includes(searchTerm) ||
       talk.category.some(c => c.toLowerCase().includes(searchTerm)) ||
       talk.speakers.some(s => s.toLowerCase().includes(searchTerm))
     );
